@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class array{
+public class CreateLottoNumber{
 	
 	public static void getLottoNum(int[] lotto,int bonusNum) {
 		Random rd = new Random();
@@ -14,7 +14,7 @@ public class array{
 			}
 			
 		}
-		System.out.println("�ζ� ��ȣ: ");
+		System.out.println("·Î¶Ç ¹øÈ£: ");
 		for(int i=0;i<6;i++) {
 			System.out.printf(lotto[i]+" ");
 		}
